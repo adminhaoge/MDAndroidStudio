@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">淘宝</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">主页</string>
+    <string name="chart">热卖</string>
+    <string name="classification">分类</string>
+    <string name="person">个人</string>
+    <string name="shopping">购物车</string>
+    <string name="checked_true">全选</string>
+    <string name="total">合计</string>
+    <string name="ToSettlement">去结算</string>
+    <string name="delete">删除</string>
+    <string name="gwc">购物车</string>
+    <string name="defaults">默认</string>
+    <string name="Price">价格</string>
+    <string name="salesVolume">销量</string>
+</resources>

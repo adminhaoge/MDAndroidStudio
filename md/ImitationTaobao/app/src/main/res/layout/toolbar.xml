@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/ed_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/ic_search_24"
+        android:gravity="center"
+        android:hint="请输入搜索内容"
+        android:minHeight="30dp"
+        android:textColorHint="@android:color/background_dark"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/view_recommend"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_marginRight="10dp"
+        android:id="@+id/bt_img"
+        style="@android:style/Widget.Material.Toolbar.Button.Navigation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/view_recommend"
+        android:visibility="gone"
+        tools:ignore="NewApi" />
+
+
+</RelativeLayout>

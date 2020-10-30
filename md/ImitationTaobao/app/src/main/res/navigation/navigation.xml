@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.imitationtaobao.fragment.home.HomeFragment"
+        tools:layout="@layout/home_fragment"/>
+    <fragment
+        android:id="@+id/chart"
+        android:name="com.example.imitationtaobao.fragment.chartFragment"
+        tools:layout="@layout/chart_fragment"/>
+    <fragment
+        android:id="@+id/classification"
+        android:name="com.example.imitationtaobao.fragment.ClassFragment"
+        tools:layout="@layout/class_fragment"/>
+    <fragment
+        android:id="@+id/shopping"
+        android:name="com.example.imitationtaobao.fragment.ShoppingFragment"
+        tools:layout="@layout/shopping_fragment"/>
+    <fragment
+        android:id="@+id/person"
+        android:name="com.example.imitationtaobao.fragment.PersonFragment"
+        tools:layout="@layout/person_fragment"/>
+</navigation>

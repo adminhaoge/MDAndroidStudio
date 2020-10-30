@@ -1,0 +1,19 @@
+color anim drawble layout menu raw 
+
+values :
+strings.xml 字符串资源
+arrays,xml 数组资源  里面有包含 字符串 和 整形 和 颜色 数组资源
+integers.xml  整数资源
+bools.xml 布尔值资源
+dimens.xml 尺寸
+styles.xml  样式
+
+
+跳转界面需要用到 handler线程+timer +timertask
+
+
+网络请求框架：
+Volley
+Retrofit
+
+
